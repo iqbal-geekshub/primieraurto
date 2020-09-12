@@ -10,7 +10,7 @@ export default function Nav(props) {
     const [showClose, setShowClose] = useState(false)
     // let { setShowClose } = props;
     const [showCloseSerch, setshowCloseSerch] = useState(false)
-   
+
     return (
 
 
@@ -85,27 +85,27 @@ export default function Nav(props) {
                                 </a>
                             </li>
 
-                            <li className="Nav_li">
+                            <li className="Nav_li_1">
 
                                 <div className="Nav_2_img">
-                                   <div className="Nav_2_img_adj">
+                                    <div className="Nav_2_img_adj">
 
-                                   
-                                    <div>
-                                    {showCloseSerch ? <SerPop setshowCloseSerch={setshowCloseSerch} /> : ""}
+
+                                        <div>
+                                            {showCloseSerch ? <SerPop setshowCloseSerch={setshowCloseSerch} /> : ""}
+                                        </div>
+                                        <div className="Nav_Img-S">
+                                            <img src={require('../../../Assets/Images/shape-copy.svg')}
+                                                onClick={() => {
+                                                    setshowCloseSerch(true)
+                                                }}
+                                            />
+                                        </div>
                                     </div>
-                                    <div className="Nav_Img-S">
-                                    <img src={require('../../../Assets/Images/shape-copy.svg')}  
-                                    onClick={()=>{
-                                        setshowCloseSerch(true)
-                                    }}
-                                     />
-                                    </div>
-                                </div>
                                 </div>
 
                             </li>
-                        </ul>                       
+                        </ul>
                     </div>
                 </div>
             </nav>
@@ -114,9 +114,9 @@ export default function Nav(props) {
                     <img src={require('../../../Assets/Images/premier-logo-resp.png')} alt="res-nav-logo" />
                 </div>
                 <div className="toggler">
-                    <img src={require('../../../Assets/Images/group-2.png')} alt="res-nav-toggler" onClick={()=>{
-                setShowClose(true)
-            }} />
+                    <img src={require('../../../Assets/Images/group-2.png')} alt="res-nav-toggler" onClick={() => {
+                        setShowClose(true)
+                    }} />
                 </div>
             </div>
             {showClose ? <PopNav setShowClose={setShowClose} /> : ""}

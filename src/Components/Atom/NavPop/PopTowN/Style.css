@@ -8,7 +8,7 @@
     
 }
 
-.Nav_serch input{
+.inut input{
     border-radius: 2px ;
     border: none;
     padding: 0px 5px 0px 0px;
@@ -30,7 +30,7 @@
     background-color: #fcc416;
       width: 260px;
     border-radius: 26px;
-    padding: 0px 0px 0px 32px;
+    padding: 0px 0px 0px 17px;
     /* justify-content: space-between; */
     position: absolute;
     top: 11px;

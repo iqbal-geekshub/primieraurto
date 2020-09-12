@@ -55,6 +55,11 @@
     border-bottom: 3px solid transparent;   
     padding: 10px;
 }
+.Nav_li_1{
+    float: left;
+    border-bottom: 3px solid transparent;   
+    padding: 10px;
+}
 .Nav_li:hover {
     
     border-color: #31D6C4;
