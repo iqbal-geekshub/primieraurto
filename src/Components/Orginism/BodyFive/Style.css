@@ -1,0 +1,59 @@
+.BodyFive{
+    padding: 60px 0px 20px 0px;
+}
+.BodyFive_Item{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 20px 20px 20px;
+}
+.BodyFive_Text{
+    align-items: center;
+    display: flex;
+    /* text-align: center; */
+    flex-direction: column;
+    /* justify-content: center; */
+}
+.BodyFour_Text_1 label{
+    color: #0095cf ;
+    font-size: 14px;
+}
+
+.BodyFive_Text_2 label{
+    font-weight: bold;
+    font-size: 35px;
+    
+}
+.BodyFive_Text_Bar{
+    width: 50px;
+    background-color: Black;
+    border-top: 1px solid rgba(0,0,0,.1);
+    
+}
+.BodyFive_Text_Bar_2{
+    width: 40px;
+    background-color: Black;
+    border-top: 1px solid rgba(0,0,0,.1);
+    margin: 3px 0px 0px 0px;
+}
+
+/* /______________________________ */
+.BodyFive_Item{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 30px 40px 30px 40px;
+
+}
+.BodyFive_Item_1{
+    width: 30%;
+
+}
+.BodyFive_Item_2{
+    width: 30%;
+
+}
+
+.BodyFive_Item_3{
+    width: 30%;
+
+}

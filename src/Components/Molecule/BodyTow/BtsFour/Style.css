@@ -1,0 +1,44 @@
+.B2-img_4 img  {
+    width: 100%;
+}
+.B2_4 {
+    width: 25%;
+    padding: 10px 10px 10px 10px;
+}
+
+
+.B2_4 .B2-text_4 h2{
+    color: rgb(0, 149, 207);
+    font-weight: normal;
+    font-size: 1rem;
+}
+.B2-text_4 {
+    text-align: center;
+    padding: 20px 0px 0px 0px;
+
+    /* width: 47%; */
+    
+}
+.B2_4 .B2-text_4 p {
+    line-height: 1.8;
+    color: #6a6a6a;
+    min-height: 82px;
+}
+.B2-Btn_4{
+   
+    font-weight: 400;
+    color: rgb(0, 149, 207);;
+    text-align: center;
+
+    background-color: transparent;
+    border: 1px solid transparent;
+    font-size: 1rem;
+    border-radius: .25rem;
+    /* transition: color .15s */
+}
+.B2-Btn_4:hover{
+    background-color: rgb(0, 149, 207);;
+    color: white;
+   
+
+}

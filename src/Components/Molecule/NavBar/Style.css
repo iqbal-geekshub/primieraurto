@@ -1,0 +1,138 @@
+.Logo{
+    width: 250px;
+}
+.Nav_1_Adj{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    background-color: #3eafdb;
+    height: 40px;
+    align-items: center;
+}
+/* .Nav_1_R{
+    width: 50%;
+} */
+.Nav_1_R{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    /* align-items: center; */
+    text-align: center;
+   
+    
+}
+.Nav_1_R p{
+    color: #fff!important;
+    /* text-decoration: none; */
+    font-size: 14px;
+    font-weight: 600;
+    font-family: Montserrat, sans-serif;
+    margin: 0px;
+}
+
+
+.Nav_2{
+    padding: 20px 20px 5px 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.Nav_2_logo img{
+    width: 250px;
+
+}
+
+.Nav_ul{
+    padding: 10px 0px 10px 0px ;
+    margin: 0px;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    float: left;
+
+}
+.Nav_li{
+    float: left;
+    border-bottom: 3px solid transparent;   
+    padding: 10px;
+}
+.Nav_li:hover {
+    
+    border-color: #31D6C4;
+  }
+  .Nav_li a{
+    color: black;
+  text-decoration: none;
+}
+.Nav_li a:hover{
+    color: black;
+  text-decoration: none;
+}
+
+
+.Nav_2_img{
+    background-color: #3eafdb;
+    border-radius: 26px;
+    /* width: 250px; */
+    height: 50px;
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+}
+
+
+
+.Nav_2_img:hover{
+    background-color: #fcc416;
+
+}
+
+.Nav_2_img img{
+    width: 25px;
+}
+.Nav_2_img_adj{
+    display: flex;
+    align-items: center;
+}
+.Nav_Img-S{
+    background-color: #3eafdb;
+    border-radius: 26px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Nav_Img-S:hover{
+    background-color: #fcc416;
+  
+}
+
+
+
+.mobile-nav{
+    /* z-index: 1; */
+    width:100%;
+    /* position: absolute; */
+    top:0;
+    padding:17px 0px;
+    display: flex;
+    justify-content: space-between;
+    background: #00000052;
+    /* background-image: linear-gradient(to top, rgba(136, 136, 137, 0), rgba(0, 0, 0, 0.67)); */
+    display:none;
+}
+.toggler{
+    cursor:pointer;
+    padding-top:8px;
+    padding-right:40px;
+}
+.toggler img{
+    display: block;
+}
+.res-nav-logo{
+    width:150px;
+    padding-left: 15px;
+}

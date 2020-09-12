@@ -1,0 +1,40 @@
+.Pop_1{
+    /* border: 1px solid black; */
+    position: relative;
+}
+.Pop_1_Adj{
+    /* border: 1px solid red; */
+    padding: 29px 10px 10px 10px; 
+    background-color: white;
+}
+
+.Pop_1_img img{
+    position: absolute;
+    top: -12%;
+}
+
+
+.Pop_1_lable{
+    align-items: center;
+}
+
+.Pop_1_lable .Pop_1_lable_1 lable{
+    color: #999999;
+}
+.Pop_1_lable .Pop_1_lable_1 lable span{
+    color: black;
+}
+.Pop_1_lable_1{
+    padding: 10px 10px 10px 10px; 
+}
+.Pop_1_lable_2{
+    padding: 10px 10px 10px 10px; 
+}
+.Pop_1_lable_3{
+    padding: 10px 10px 10px 10px; 
+}
+
+
+.Pop_1_lable_3 lable{
+    font-size: 13px ;
+}

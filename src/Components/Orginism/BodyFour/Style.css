@@ -1,0 +1,80 @@
+.BodyFour{
+    padding: 60px 0px 20px 0px;
+}
+.BodyFour_Item{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 20px 20px 20px;
+}
+
+.BodyFour_Text{
+    align-items: center;
+    display: flex;
+    /* text-align: center; */
+    flex-direction: column;
+    /* justify-content: center; */
+}
+.BodyFour_Text_1 label{
+    color: #0095cf ;
+    font-size: 14px;
+}
+
+.BodyFour_Text_2 label{
+    font-weight: bold;
+    font-size: 35px;
+    
+}
+.BodyFour_Text_Bar{
+    width: 50px;
+    background-color: Black;
+    border-top: 1px solid rgba(0,0,0,.1);
+}
+/* ____________________________________ */
+
+.BodyFour_Item{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 30px 40px 30px 40px;
+
+}
+.BodyFour_Item_1{
+    width: 30%;
+
+}
+.BodyFour_Item_2{
+    width: 30%;
+
+}
+
+.BodyFour_Item_3{
+    width: 30%;
+
+}
+.BodyFour_Item_4{
+    width: 33%;
+    padding: 0px 0px 0px 50px;
+
+}
+
+/* ______________________________________ */
+
+.B4_Btn{
+    display: flex;
+    justify-content: center;
+
+}
+
+.B4_Btn_1{
+    color: white;
+    border: 2px solid #6200cf; 
+    background-color: #6200cf;
+    width: 200px;
+    height: 50px;
+    border-radius: 7px;
+    padding: 10px 10px 10px 10px;
+}
+.B4_Btn_1:hover{
+    background-color: #4a108b;
+
+}

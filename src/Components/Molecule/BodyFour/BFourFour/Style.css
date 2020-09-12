@@ -1,0 +1,20 @@
+.B4-4 img{
+    width: 100%;
+    
+}
+.B4-4-Adj{
+    padding: 10px 10px 10px 20px;
+    /* width: 30%; */
+}
+.B4-4{
+    position: relative;
+}
+.B4_Txt-4{
+    background-color: #00000061;
+    height: 60px;
+    color: white;
+    text-align: center;
+    padding: 5px 10px 0px 10px;
+    position: absolute;
+ ;
+}

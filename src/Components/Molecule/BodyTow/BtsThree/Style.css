@@ -1,0 +1,42 @@
+.B2-img_3 img  {
+    width: 100%;
+}
+.B2_3 {
+    width: 25%;
+    padding: 10px 10px 10px 10px;
+}
+
+
+.B2_3 .B2-text_3 h2{
+    color: #f58223;
+    font-weight: normal;
+    font-size: 1rem;
+}
+.B2-text_3 {
+    text-align: center;
+    padding: 20px 0px 0px 0px;
+    /* width: 47%; */
+}
+.B2_3 .B2-text_3 p {
+    line-height: 1.8;
+    color: #6a6a6a;
+    min-height: 82px;
+}
+.B2-Btn_3{
+   
+    font-weight: 400;
+    color: #f58223;
+    text-align: center;
+
+    background-color: transparent;
+    border: 1px solid transparent;
+    font-size: 1rem;
+    border-radius: .25rem;
+    /* transition: color .15s */
+}
+.B2-Btn_3:hover{
+    background-color: #f58223;
+    color: white;
+   
+
+}

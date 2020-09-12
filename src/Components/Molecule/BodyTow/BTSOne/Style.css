@@ -1,0 +1,47 @@
+
+.B2 {
+    width: 25%;
+    padding: 10px 10px 10px 10px;
+}
+.B2-img img  {
+    width: 100%;
+}
+
+
+.B2 .B2-text h2{
+    color: rgb(98, 0, 207);
+    font-weight: normal;
+    font-size: 1rem;
+}
+.B2-text {
+    text-align: center;
+    /* width: 47%; */
+    padding: 20px 0px 0px 0px;
+}
+.B2 .B2-text p {
+    line-height: 1.8;
+    color: #6a6a6a;
+    min-height: 82px;
+}
+.B2-Btn{
+   
+    font-weight: 400;
+    color: rgb(98, 0, 207);
+    text-align: center;
+width: 120px;
+    background-color: transparent;
+    border: 1px solid transparent;
+    font-size: 1rem;
+    border-radius: .25rem;
+    /* transition: color .15s */
+}
+.B2-Btn:hover{
+    background-color: rgb(98, 0, 207);
+    color: white;
+   
+
+}
+.h2{
+    font-size: 1rem;
+
+}

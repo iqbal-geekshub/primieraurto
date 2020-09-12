@@ -1,0 +1,34 @@
+.BodyTow{
+    padding: 60px 0px 20px 0px;
+}
+.BodyTow_Item{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 60px 20px 60px;
+}
+.BodyTow_Text{
+    align-items: center;
+    display: flex;
+    /* text-align: center; */
+    flex-direction: column;
+    /* justify-content: center; */
+}
+.BodyTow_Text_1 label{
+    color: #0095cf ;
+    font-size: 14px;
+}
+
+.BodyTow_Text_2 label{
+    font-weight: 500;
+        font-size: 35px;
+    
+}
+.BodyTow_Text_Bar{
+    /* width: 60px; */
+    /* margin-bottom: 1rem; */
+    /* border: 0; */
+    /* align-items: center; */
+    width: 80px;
+    background-color: #0095cf;
+    border-top: 1px solid rgba(0,0,0,.1);
+}
