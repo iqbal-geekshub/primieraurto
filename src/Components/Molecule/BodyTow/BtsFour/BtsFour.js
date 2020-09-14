@@ -6,7 +6,7 @@ export default function BtsFour() {
         <div className="B2_4">
             <div className="B2-img_4">
 
-                <img src={require('../../../../Assets/Images/orthopeadicnew.jpeg')} />
+                <img src={require('../../../../Assets/Images/orthopeadicnew.jpeg')} alt="orthopeadicnew"/>
 
             </div>
             <div className="B2-text_4">

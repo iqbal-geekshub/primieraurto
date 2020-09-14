@@ -28,11 +28,11 @@ justify-content: space-around;
      color: #0095cf;
      cursor: pointer;
 }
-.icons_lable p:nth-child(1){
+.icons_label p:nth-child(1){
     font-size: 14px;
     color: #0095cf;
 }
-.icons_lable p:nth-child(2){
+.icons_label p:nth-child(2){
     font-size: 30px;
     color: #0095cf;
 }
@@ -64,7 +64,8 @@ justify-content: space-around;
 .ftr_li_p{
     list-style-type: none;
     float: left;
-    padding: 20px 20px 5px 20px;
+    padding: 30px 0px 30px 50px;
+    
 }
 .ftr_li_p a{
     color: #6a6a6a;

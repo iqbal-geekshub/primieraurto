@@ -4,6 +4,10 @@
 }
 .Body_3_img{
     width: 50%;
+    background-image: url('../../../Assets/Images/croudnew.jpeg') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* width: 100%; */
 }
 .Body_3_img img{
     width: 100%;
@@ -12,14 +16,14 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 50%;
-    padding: 20px 20px 20px 20px;
+    width: 43%;
+    padding: 90px 20px 90px 20px;
 }
 .B3_L1_1 {
     padding: 10px 10px 10px 40px;
 }
 .B3_L1_lbl{
-    color: #2251b0;
+    color: #0095cf;
     padding: 20px 30px 0px 41px;
 }
 .B3_L1_1 label{

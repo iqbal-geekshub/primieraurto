@@ -7,11 +7,11 @@ export default function BdyFourTow() {
 
             <div className="B4-2">
                 <div className="B4_Txt-2">
-                    <labl>
+                    <label>
                         I knew I could call anytime if I had a question or an issue, and I would be a...
-            </labl>
+            </label>
                 </div>
-                <img src={require('../../../../Assets//Images/tom-holland.png')}>
+                <img src={require('../../../../Assets//Images/tom-holland.png')} alt="tom-holland">
                 </img>
 
             </div>

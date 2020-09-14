@@ -6,25 +6,25 @@ export default function PopUptow() {
         <div className="Pop_1">
             <div className="Pop_1_Adj">
                 <div className="Pop_1_img">
-                    <img src={require('../../../../Assets/Images/group-6.png')}>
+                    <img src={require('../../../../Assets/Images/group-6.png')} alt="group 6">
                     </img>
                 </div>
-                <div className="Pop_1_lable">
-                    <div className="Pop_1_lable_1">
-                        <lable>
+                <div className="Pop_1_label">
+                    <div className="Pop_1_label_1">
+                        <label>
                             Post by <span>Admin</span>
-                        </lable>
+                        </label>
                     </div>
 
-                    <div className="Pop_1_lable_2">
-                        <lable>
+                    <div className="Pop_1_label_2">
+                        <label>
                         Premier Orthopaedics Now Offering Telemedicine Visits
-                     </lable>
+                     </label>
                     </div>
-                    <div className="Pop_1_lable_3">
-                        <lable>
+                    <div className="Pop_1_label_3">
+                        <label>
                         As the coronavirus crisis continues to evolve, ...
-                    </lable>
+                    </label>
                     </div>
                 </div>
             </div>

@@ -6,7 +6,7 @@ export default function BtThree() {
         <div className="B2_3">
         <div className="B2-img">
             
-            <img src={require('../../../../Assets/Images/urgentcarehome.jpeg')} />
+            <img src={require('../../../../Assets/Images/urgentcarehome.jpeg')} alt="home"/>
 
         </div>
         <div className="B2-text_3">

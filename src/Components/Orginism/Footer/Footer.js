@@ -83,7 +83,7 @@ export default function Footer() {
 
                         </p>
 
-                        <div className="icons_lable">
+                        <div className="icons_label">
 
                             <p>
                                 APPOINTMENTS IN 24 HOURS
@@ -99,28 +99,28 @@ export default function Footer() {
                                 <div className="Icons">
                                     <div className="Icons_Adj">
                                         <div className="Ftr_Icon_1">
-                                            <img src={require('../../../Assets/Images/twitter-new.png')} />
+                                            <img src={require('../../../Assets/Images/twitter-new.png')} alt="Twitter logo" />
                                         </div>
                                     </div>
                                     <div className="Icons_Adj">
                                         <div className="Ftr_Icon_1">
 
-                                            <img src={require('../../../Assets/Images/facebook-new.png')} />
+                                            <img src={require('../../../Assets/Images/facebook-new.png')}  alt="Twitter logo"/>
                                         </div>
                                     </div>
                                     <div className="Icons_Adj">
                                         <div className="Ftr_Icon_1">
-                                            <img src={require('../../../Assets/Images/linkedin-new.png')} />
+                                            <img src={require('../../../Assets/Images/linkedin-new.png')}  alt="Twitter logo" />
                                         </div>
                                     </div>
                                     <div className="Icons_Adj">
                                         <div className="Ftr_Icon_1">
-                                            <img src={require('../../../Assets/Images/instagram.png')} />
+                                            <img src={require('../../../Assets/Images/instagram.png')}  alt="Twitter logo"/>
                                         </div>
                                     </div>
                                     <div className="Icons_Adj">
                                         <div className="Ftr_Icon_1">
-                                            <img src={require('../../../Assets/Images/youtube.png')} />
+                                            <img src={require('../../../Assets/Images/youtube.png')}  alt="Twitter logo"/>
                                         </div>
                                     </div>
                                 </div>

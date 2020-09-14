@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import './Style.css'
 import PopNav from '../../Atom/NavPop/SSSS/Navpop'
 import SerPop from '../../Atom/NavPop/PopTowN/SerchBtn'
-import Lable from '../../Atom/Lable/Lable'
+
 // import { useState } from 'react'
 
 export default function Nav(props) {
@@ -29,9 +29,9 @@ export default function Nav(props) {
                     <p>
                         PATIENT LOGIN
                     </p>
-                    {/* <Lable name="APPOINTMENTS WITHIN 24 HOURS" />
-                    <Lable name="CALL 1.855.ORTHO24 " />
-                    <Lable name="PATIENT LOGIN " /> */}
+                    {/* <label name="APPOINTMENTS WITHIN 24 HOURS" />
+                    <label name="CALL 1.855.ORTHO24 " />
+                    <label name="PATIENT LOGIN " /> */}
                     {/* <p> PATIENT LOGIN</p> */}
                     {/* <a href="#" />PATIENT LOGIN */}
                 </div>
@@ -39,7 +39,7 @@ export default function Nav(props) {
             </div>
 
             <nav className="navbar navbar-expand-md justify-content-between navbar-light  d-none d-xl-flex ">
-                <a href="#" class="navbar-brand">
+                <a href="#" className="navbar-brand">
                     {/* <img  height="28" alt="CoolBrand"> */}
                     <img className="Logo" src={require('../../../Assets/Images/logo.jpg')} />
                 </a>
@@ -47,7 +47,7 @@ export default function Nav(props) {
 
 
 
-                <div class="  d-flex justify-content-end" >
+                <div className="  d-flex justify-content-end" >
 
 
                     <div className="navbar-nav d-none   d-lg-block d-xl-block d-md-block">
@@ -95,7 +95,7 @@ export default function Nav(props) {
                                             {showCloseSerch ? <SerPop setshowCloseSerch={setshowCloseSerch} /> : ""}
                                         </div>
                                         <div className="Nav_Img-S">
-                                            <img src={require('../../../Assets/Images/shape-copy.svg')}
+                                            <img src={require('../../../Assets/Images/shape-copy.svg' )} alt="Shape"
                                                 onClick={() => {
                                                     setshowCloseSerch(true)
                                                 }}

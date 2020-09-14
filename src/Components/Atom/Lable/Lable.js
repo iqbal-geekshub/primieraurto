@@ -1,12 +1,12 @@
 import React from 'react'
 import './Style.css'
 
-export default function Lable(props) {
+export default function label(props) {
     return (
         <div>
-            <lable classname="lbl" >{props.name}
+            <label classname="lbl" >{props.name}
 
-            </lable>
+            </label>
         </div>
     )
 }

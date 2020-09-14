@@ -5,11 +5,11 @@ export default function BdyFourOne() {
         <div className="B4-1-Adj">
             <div className="B4-1">
                 <div className="B4_Txt-1">
-                    <labl>
+                    <label>
                         When you’ve spent your life helping others see the good in everything a...
-                </labl>
+                </label>
                 </div>
-                <img src={require('../../../../Assets//Images/dickstarly-header.png')}
+                <img src={require('../../../../Assets//Images/dickstarly-header.png')} alt="dickstarly-header"
                 ></img>
 
 

@@ -6,11 +6,11 @@ export default function BdyFourFour() {
         <div className="B4-4-Adj">
             <div className="B4-4">
                 <div className="B4_Txt-4">
-                    <labl>
+                    <label>
                         Stay-at-home orders have kept most of the nation inside since March, and the ...
-                </labl>
+                </label>
                 </div>
-                <img src={require('../../../../Assets//Images/blog-placeholder.jpg')}>
+                <img src={require('../../../../Assets//Images/blog-placeholder.jpg')} alt="placeholder">
                 </img>
 
             </div>

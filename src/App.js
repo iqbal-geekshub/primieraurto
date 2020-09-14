@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import Home from './Container/Home/Home'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
@@ -15,7 +14,7 @@ function App() {
 
     //   </header>
     // </div>
-    <div>
+    <div className="  ">
       <Home />
     </div>
   );

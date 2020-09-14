@@ -29,6 +29,9 @@
     font-family: Montserrat, sans-serif;
     margin: 0px;
 }
+.Nav_1_R p:last-child{
+    color: #7cdaff!important;
+}
 
 
 .Nav_2{

@@ -14,27 +14,27 @@
 }
 
 
-.Pop_1_lable{
+.Pop_1_label{
     align-items: center;
 }
 
-.Pop_1_lable .Pop_1_lable_1 lable{
+.Pop_1_label .Pop_1_label_1 label{
     color: #999999;
 }
-.Pop_1_lable .Pop_1_lable_1 lable span{
+.Pop_1_label .Pop_1_label_1 label span{
     color: black;
 }
-.Pop_1_lable_1{
+.Pop_1_label_1{
     padding: 10px 10px 10px 10px; 
 }
-.Pop_1_lable_2{
+.Pop_1_label_2{
     padding: 10px 10px 10px 10px; 
 }
-.Pop_1_lable_3{
+.Pop_1_label_3{
     padding: 10px 10px 10px 10px; 
 }
 
 
-.Pop_1_lable_3 lable{
+.Pop_1_label_3 label{
     font-size: 13px ;
 }

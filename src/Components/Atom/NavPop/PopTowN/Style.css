@@ -3,7 +3,7 @@
     right: -12px;
     position: absolute;
     top: -11px;
-    background-color: #fcc416;
+    /* background-color: #fcc416; */
     /* width: 250px; */
     
 }
@@ -12,6 +12,7 @@
     border-radius: 2px ;
     border: none;
     padding: 0px 5px 0px 0px;
+    width: 193px;
 }
 
 /* .Nav_serch{
@@ -27,7 +28,7 @@
 } */
 .Nav_Serch_img_adj {
     display: flex;
-    background-color: #fcc416;
+    background-color: #fcc416c9;
       width: 260px;
     border-radius: 26px;
     padding: 0px 0px 0px 17px;

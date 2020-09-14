@@ -1,13 +1,13 @@
 import React from 'react'
 import './Style.css'
-import Lable from '../../Atom/Lable/Lable'
+
 
 export default function BodyO() {
     return (
         <div className="Bdy_1">
-            {/* <Lable value="GOODBYE PAIN.
+            {/* <label value="GOODBYE PAIN.
                             HELLO PLAYTIME"/>
-            <Lable value="Get back to what you love doing most. With a full spectrum of orthopaedic services in locations throughout the 
+            <label value="Get back to what you love doing most. With a full spectrum of orthopaedic services in locations throughout the 
                             Greater Philadelphia region, we'll help you through it." /> */}
             <div className="Bdy_1_Adj">
 
@@ -20,7 +20,7 @@ export default function BodyO() {
                     Get back to what you love doing most. With a full spectrum of orthopaedic services in locations throughout the
                     Greater Philadelphia region, we'll help you through it.
                             </p>
-                <button className="Bdy_1_Btn" active>
+                <button className="Bdy_1_Btn" >
                     FIND A SPECIALIST
             </button>
             </div>

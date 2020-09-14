@@ -7,24 +7,24 @@ export default function FiTow() {
         <div className="F5_1">
             <div className="F5_1_adj">
                 <div className="F5_img">
-                    <img src={require('../../../../Assets/Images/finalstrech.jpeg')}>
+                    <img src={require('../../../../Assets/Images/finalstrech.jpeg')} alt="finalstrech">
                     </img>
                 </div>
                 <div className="F5_2">
                     <div className="F5_2_1">
                         <div className="F5_2_Orange">
-                            <lable>
+                            <label>
                                 02 
-                            </lable>
+                            </label>
                             <label>
                             Apr
                              </label>
                         </div>
                         <div className="F5_date">
-                            <lable>
+                            <label>
                                 20
                                 
-                            </lable>
+                            </label>
                             <label>
                                 20
                              </label>

@@ -17,7 +17,7 @@ export default function BodyTow() {
                 </div>
                 <div className="BodyTow_Text_2">
                     <label>
-                        SERVICESF
+                        SERVICES
                </label>
                 </div>
 

@@ -2,7 +2,7 @@ import React from 'react'
 import FiveOne from '../../Molecule/BodyFive/FiOne/FiOne'
 import FiveTow from '../../Molecule/BodyFive/FiTow/FiTow'
 import FiveThree from '../../Molecule/BodyFive/FiThree/FiThree'
-import Fivefour from '../../Molecule/BodyFive/FiFoure/FiFour'
+
 
 
 import './Style.css'

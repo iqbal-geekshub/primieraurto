@@ -5,11 +5,11 @@ export default function BdyFourThree() {
         <div className="B4-3-Adj">
             <div className="B4-3">
                 <div className="B4_Txt-3">
-                    <labl>
+                    <label>
                         I started physical therapy for pain and tingling in my arm and fingers in Aug...
-                    </labl>
+                    </label>
                 </div>
-                <img src={require('../../../../Assets//Images/sheilahoist.jpeg')}>
+                <img src={require('../../../../Assets//Images/sheilahoist.jpeg')} alt="sheilahois">
                 </img>
 
             </div>

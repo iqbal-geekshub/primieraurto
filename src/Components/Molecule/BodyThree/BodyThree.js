@@ -5,11 +5,11 @@ export default function BodyThree() {
     return (
         <div className="Body_3">
             <div className="Body_3_img">
-                <img src={require('../../../Assets/Images/croudnew.jpeg')}></img>
+                {/* <img src={require('../../../Assets/Images/croudnew.jpeg')}></img> */}
             </div>
 
             <div className="B3_L1">
-                <label className="B3_L1_lbl">PREMIER SPORTS MEDICINE.<span>THE PHILADELPHIA UNION.</span></label>
+                <label className="B3_L1_lbl">PREMIER SPORTS MEDICINE. <span> THE PHILADELPHIA UNION.</span></label>
 
                 <div className="B3_L1_1">
 
