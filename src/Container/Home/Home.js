@@ -34,8 +34,10 @@ export default function Home(props) {
           </button>
         </div>
 
-        <div className="res-movers d-xl-none">
-          <button className="btn-fixed btn-purple">
+        <div className="res-movers d-xl-none" >
+          <button className="btn-fixed btn-purple" onClick={()=>{
+                setBtnShowClose(true)
+            }}>
             <strong>MAKE APPOINTMENT</strong>
           </button>
           <button className="btn-fixed btn-blue">
