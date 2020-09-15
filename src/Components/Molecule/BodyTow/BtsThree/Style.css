@@ -1,6 +1,11 @@
-.B2-img_3 img  {
+.B2-img_3 {
     width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('../../../../Assets/Images/urgentcarehome.jpeg');
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+   min-height: 245px;
 }
+
 .B2_3 {
     width: 25%;
     padding: 10px 10px 10px 10px;

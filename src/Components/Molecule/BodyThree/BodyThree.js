@@ -1,14 +1,29 @@
 import React from 'react'
+
 import './Style.css'
 
 export default function BodyThree() {
+    // if(typeof window !=='undefined')
+    // {
+    //     gsap.registerPlugin(ScrollTrigger);
+    // }
+    //     let chart1=useRef(null);
+    //     let chart2 = useRef(null);
+       
+    //     useEffect(() => {
+    //         TweenMax.from(chart1, {scrollTrigger:{trigger:chart1, toggleActions:"restart reverse restart resume"}
+    //     ,x:-200, opacity:0,duration:0.6});
+    //     TweenMax.from(chart2,{scrollTrigger:{trigger:chart2,toggleActions:"restart reverse restart resume"}
+    //     ,x:200,opacity:0,duration:0.6});
+      
+    //     })
     return (
         <div className="Body_3">
             <div className="Body_3_img">
                 {/* <img src={require('../../../Assets/Images/croudnew.jpeg')}></img> */}
             </div>
 
-            <div className="B3_L1">
+            <div className="B3_L1" >
                 <label className="B3_L1_lbl">PREMIER SPORTS MEDICINE. <span> THE PHILADELPHIA UNION.</span></label>
 
                 <div className="B3_L1_1">

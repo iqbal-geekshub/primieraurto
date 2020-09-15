@@ -113,7 +113,7 @@ export default function BtnPopup(props) {
                         <div className="kkk ">
                             <div className="">
                                 <button className="pop-btn-1">
-                                    Search
+                                    SEARCH
                               </button>
                             </div>
                         </div>

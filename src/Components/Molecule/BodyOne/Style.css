@@ -3,12 +3,12 @@
     background-image: url(../../../Assets/Images/header.jpeg);
     background-size: cover; 
     background-repeat: no-repeat;
-    /* background-position: left 100% bottom 0%; */
+    background-position: left 0%  top 0%;
 }
 .Bdy_1_Adj{
     /* padding: 60px 0px 30px 15%; */
    
-    padding: 209px 0px 100px 17%;
+    padding: 205px 0px 100px 226px;
 
 
 }

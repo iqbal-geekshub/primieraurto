@@ -18,7 +18,6 @@ export default function Home(props) {
             <BodyT />
             <BodyThree />
             <BodyFour />
-            <BodyT />
             <BodyFive />
             <Footer />
            {BtnShowClose && <BtnPop setBtnShowClose={setBtnShowClose}/> }

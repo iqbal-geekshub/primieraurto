@@ -7,7 +7,7 @@ export default function Tow() {
         <div className="B2_2">
             <div className="B2-img_2">
                 
-            <img src={require('../../../../Assets/Images/mridesktop.jpg')} alt="mridesktop" />
+            {/* <img src={require('')} alt="mridesktop" /> */}
             </div>
             <div className="B2-text_2">
               <h2>

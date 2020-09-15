@@ -153,7 +153,7 @@ export default function Footer() {
                             Site map
                                 </a>
                     </li>
-                    <li className="Nav_li_p">
+                    {/* <li className="Nav_li_p">
                         <a href="#">
                             PATIENT RESOURCES
                                     </a>
@@ -162,7 +162,7 @@ export default function Footer() {
                         <a href="#">
                             CAREERS
                                 </a>
-                    </li>
+                    </li> */}
                 </ul>
             </div>
 

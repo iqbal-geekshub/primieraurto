@@ -1,9 +1,10 @@
 .movers{
     z-index:200;
     position: fixed;
-    top:358px;
-    right: -173px;
+    top:360px;
+    right: -198px;
     transform: rotate(-90deg);
+    ;
   }
   
   
@@ -11,25 +12,32 @@
   .btn-fixed{
     border:none;
     border-radius:4px;
-    padding: 15px 35px 15px 33px;
+    padding: 15px 55px 10px 35px;
     color:white;
     font-family: 'Montserrat', sans-serif;
     font-size:14px;
     font-weight: 400;
     cursor:pointer;
+    outline: none;
   }
   .btn-blue{
     background-color: #0095cf;
     margin-left:10px;
+    outline: none;
   }
   .btn-blue:hover{
     background-color: #04b9ff ;
+    border:none;
+    
   }
   .btn-purple{
     background-color: #6200cf;
+    outline: none;
   }
   .btn-purple:hover{
     background-color: #480098 ;
+    border:none;
+    
   }
 
 
@@ -44,4 +52,5 @@
     width:100%;
     background-image: linear-gradient( to top, rgba(136, 136, 137, 0.66), rgba(0, 0, 0, 0.62) );
     align-items: center;
+    outline: none;
   } 

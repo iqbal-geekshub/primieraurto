@@ -1,37 +1,40 @@
 .Logo{
-    width: 250px;
+    width: 245px;
+    height: 73px; 
+    padding: 2px 0px 6px 5px;
 }
 .Nav_1_Adj{
-    width: 100%;
-    display: flex;
-    justify-content: flex-end;
-    background-color: #3eafdb;
-    height: 40px;
-    align-items: center;
+    min-height: 50px;
+    height: 51px;
+    background-image: linear-gradient(92deg, rgba(255, 255, 255, 0.5), #0095cf), linear-gradient(to bottom, #0095cf, #0095cf);
 }
-/* .Nav_1_R{
-    width: 50%;
-} */
+.navbar{
+    height: 105px;
+}
 .Nav_1_R{
     display: flex;
     justify-content: space-around;
-    width: 50%;
+    /* width: 50%; */
     /* align-items: center; */
-    text-align: center;
+    /* text-align: center; */
+    padding: 0px 50px 0px 20px;
    
-    
 }
 .Nav_1_R p{
-    color: #fff!important;
-    /* text-decoration: none; */
-    font-size: 14px;
+       color: #fff;
+    text-decoration: none;
+    font-size: 15px;
     font-weight: 600;
     font-family: Montserrat, sans-serif;
-    margin: 0px;
+    margin-bottom: 0;
+    padding: 0px 0px 0px 22px;
+
 }
 .Nav_1_R p:last-child{
     color: #7cdaff!important;
+    padding: 0px 0px 0px 30px;
 }
+
 
 
 .Nav_2{
@@ -45,7 +48,7 @@
 }
 
 .Nav_ul{
-    padding: 10px 0px 10px 0px ;
+    padding: 12px 30px 10px 0px ;
     margin: 0px;
     list-style-type: none;
     display: flex;
@@ -56,7 +59,10 @@
 .Nav_li{
     float: left;
     border-bottom: 3px solid transparent;   
-    padding: 10px;
+    padding: 1px 0px 6px 0px;
+    /* font-size: 16px; */
+    list-style-type: none;
+
 }
 .Nav_li_1{
     float: left;
@@ -70,6 +76,10 @@
   .Nav_li a{
     color: black;
   text-decoration: none;
+  padding: 0px 10px 0px 9px;
+  font-weight: 500 !important;
+  font-size: 14px !important;
+  font-family: 'Montserrat', sans-serif !important;
 }
 .Nav_li a:hover{
     color: black;
@@ -121,14 +131,15 @@
 
 
 .mobile-nav{
-    /* z-index: 1; */
+    z-index: 1;
     width:100%;
     /* position: absolute; */
     top:0;
     padding:17px 0px;
     display: flex;
+    background: transparent;
     justify-content: space-between;
-    background: #00000052;
+    background: #00000000;
     /* background-image: linear-gradient(to top, rgba(136, 136, 137, 0), rgba(0, 0, 0, 0.67)); */
     display:none;
 }

@@ -1,14 +1,20 @@
-
-.Nav_li_p{
+.Blue_li{
+    text-decoration: none;
+    list-style-type: none;
+    padding: 30px 20px 0px 30px;
+}
+.Blue_li_p{
 
     list-style-type: none;
     color: white;
+    
+   
 }
-.Nav_li_p a{
+.Blue_li_p a{
     color: white;
 
 }
-.Nav_Pop_Main {
+.Blue_Pop_Main {
     position: fixed;
     top: 0;
     bottom: 0;
@@ -16,30 +22,23 @@
     width: 300px;
     background-color: #0095cf;
     z-index: 99999;
-    /* padding-left: 37px; */
-    /* padding-top: 62px; */
     padding-bottom: 20px;
     color: white;
     overflow-y: scroll;
     z-index: 9999999999;
-}
-.Nav_Pop{
-    width: 70%;
-    /* background-color: teal; */
-    /* top: 0;
-    right: 0; */
-    color: white;
-
+    animation: mymove 1s 1;
 }
 
-.fa.fa-times {
+
+.Blue_li .fa.fa-times {
     position: absolute;
     top: 10px;
     right: 10px;
     float: right;
     font-size: 30px;
+    color: wheat;
 }
-.Nav_li input{
+.Blue_li input{
     border-radius: 2px ;
     border: none;
 }

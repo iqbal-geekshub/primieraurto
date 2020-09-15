@@ -1,13 +1,13 @@
 import React, { useState } from 'react'
 import './Style.css'
-import PopNav from '../../Atom/NavPop/SSSS/Navpop'
+
 import SerPop from '../../Atom/NavPop/PopTowN/SerchBtn'
 
 // import { useState } from 'react'
 
 export default function Nav(props) {
 
-    const [showClose, setShowClose] = useState(false)
+  
     // let { setShowClose } = props;
     const [showCloseSerch, setshowCloseSerch] = useState(false)
 
@@ -15,31 +15,26 @@ export default function Nav(props) {
 
 
         <div className="container-fluid p-0" >
-            <div className="Nav_1_Adj d-none d-xl-flex">
-                <div className="Nav_1_L">
+            <div className="Nav_1_Adj d-none d-xl-flex header-nav-1  justify-content-end align-items-center">
+                {/* <div className="Nav_1_L">
 
-                </div>
+                </div> */}
                 <div className="Nav_1_R">
                     <p>
                         APPOINTMENTS WITHIN 24 HOURS
                     </p>
                     <p>
-                        APPOINTMENTS WITHIN 24 HOURS
+                    1.855.ORTHO24
                     </p>
                     <p>
                         PATIENT LOGIN
                     </p>
-                    {/* <label name="APPOINTMENTS WITHIN 24 HOURS" />
-                    <label name="CALL 1.855.ORTHO24 " />
-                    <label name="PATIENT LOGIN " /> */}
-                    {/* <p> PATIENT LOGIN</p> */}
-                    {/* <a href="#" />PATIENT LOGIN */}
                 </div>
 
             </div>
 
-            <nav className="navbar navbar-expand-md justify-content-between navbar-light  d-none d-xl-flex ">
-                <a href="#" className="navbar-brand">
+            <nav className="navbar navbar-expand-md justify-content-between navbar-light  d-none d-xl-flex  pt-1 pb-1 pt-2">
+                <a href="#" className="navbar-brand pl-4 ">
                     {/* <img  height="28" alt="CoolBrand"> */}
                     <img className="Logo" src={require('../../../Assets/Images/logo.jpg')} />
                 </a>
@@ -109,17 +104,8 @@ export default function Nav(props) {
                     </div>
                 </div>
             </nav>
-            <div className="mobile-nav" >
-                <div className="res-nav-logo">
-                    <img src={require('../../../Assets/Images/premier-logo-resp.png')} alt="res-nav-logo" />
-                </div>
-                <div className="toggler">
-                    <img src={require('../../../Assets/Images/group-2.png')} alt="res-nav-toggler" onClick={() => {
-                        setShowClose(true)
-                    }} />
-                </div>
-            </div>
-            {showClose ? <PopNav setShowClose={setShowClose} /> : ""}
+            
+            
 
 
 

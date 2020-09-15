@@ -7,7 +7,7 @@ export default function B2() {
         <div className="B2">
             <div className="B2-img">
                 
-                <img src={require('../../../../Assets/Images/physicaltherapydesktop.jpg')} alt="physical" />
+                {/* <img src={require('../../../../Assets/Images/physicaltherapydesktop.jpg')} alt="physical" /> */}
 
             </div>
             <div className="B2-text">

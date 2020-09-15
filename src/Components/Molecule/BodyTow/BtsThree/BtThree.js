@@ -4,9 +4,9 @@ import './Style.css'
 export default function BtThree() {
     return (
         <div className="B2_3">
-        <div className="B2-img">
+        <div className="B2-img_3">
             
-            <img src={require('../../../../Assets/Images/urgentcarehome.jpeg')} alt="home"/>
+            {/* <img src={require('../../../../Assets/Images/urgentcarehome.jpeg')} alt="home"/> */}
 
         </div>
         <div className="B2-text_3">

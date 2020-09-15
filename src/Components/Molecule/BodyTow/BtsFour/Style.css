@@ -1,5 +1,11 @@
-.B2-img_4 img  {
+.B2-img_4  {
     width: 100%;
+    /* background-color: rgba(0,0,0,0.5);
+    background-image: ; */
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('../../../../Assets/Images/orthopeadicnew.jpeg');
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+   min-height: 245px;
 }
 .B2_4 {
     width: 25%;

@@ -3,8 +3,13 @@
     width: 25%;
     padding: 10px 10px 10px 10px;
 }
-.B2-img img  {
+.B2-img {
     width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('../../../../Assets/Images/physicaltherapydesktop.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+   min-height: 245px;
 }
 
 
